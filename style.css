@@ -1,0 +1,41 @@
+.filters {
+  padding: 1rem;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-detail {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  background-color: rgb(237, 237, 237);
+  border: 2px dashed rgb(175, 1, 1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.movie-poster img {
+  max-width: 100%;
+}
+
+.movie-title {
+  font-family: sans-serif;
+}
+
+.movie-link a {
+  color: rgb(175, 1, 1);
+  text-decoration: none;
+}
+
+.movie-link a:hover {
+  color: red;
+  text-decoration: underline;
+}
